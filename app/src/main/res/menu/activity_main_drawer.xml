@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/donate"
+            android:iconTint="@android:color/white"
+            android:title="Donate" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_baseline_security_24"
+            android:iconTint="@android:color/white"
+            android:title="Set Security Questions"/>
+        <item
+            android:id="@+id/nav_your_donations"
+            android:icon="@drawable/donate"
+            android:iconTint="@android:color/white"
+            android:title="Your Donations"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:iconTint="@android:color/white"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:iconTint="@android:color/white"
+            android:title="Logout" />
+    </group>
+</menu>
